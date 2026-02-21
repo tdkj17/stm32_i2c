@@ -2,7 +2,7 @@
   call I2C_init -> call I2C_Start_send_bit -> call I2C_send_long_byte -> call I2C_Stop_send_bit
 ## stm32_i2c I2C_init
   - 用于配置相关引脚 I2C_Pin_Content I2C_init(GPIO_TypeDef *GPIOX, uint16_t SCL, uint16_t SDA, uint16_t RST
-  - 
+  - 参数定义
   GPIOX = \{GPIOA|GPIOB|GPIOC\}
 
   SCL = iic的时钟\(SCL\)引脚
