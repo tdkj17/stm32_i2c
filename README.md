@@ -20,7 +20,6 @@
     uint8_t address = 0b01110000;
     address = \(address << 1\) + 0/1(w\(写\)=0、r\(读\)=1);
     call I2C_send_one_byte
-    '''
 ## I2C_Stop_send_bit
   结束iic通信在I2C_send_one_byte发送完毕使用结束iic的通信
 ## I2C_send_long_byte
