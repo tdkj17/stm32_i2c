@@ -16,10 +16,11 @@
   用于向从机发送字节data为一个8位的数据，
   ### 第一个数据要用从机地址左移然后加上读写位
   ps：
-    '''c
+    ```c
     uint8_t address = 0b01110000;
     address = \(address << 1\) + 0/1(w\(写\)=0、r\(读\)=1);
     call I2C_send_one_byte
+    ```
 ## I2C_Stop_send_bit
   结束iic通信在I2C_send_one_byte发送完毕使用结束iic的通信
 ## I2C_send_long_byte
