@@ -9,7 +9,7 @@
 #define INC_JERRY_OLED_H_
 #include "stdbool.h"
 
-// process is call I2C_init -》 call I2C_Start_send_bit -》 call I2C_send_long_byte -》 call I2C_Stop_send_bit
+// process is call I2C_init -> call I2C_Start_send_bit -> call I2C_send_long_byte -> call I2C_Stop_send_bit
 
 enum I2C_status{i2c_status_doing, i2c_status_free};
 
@@ -152,3 +152,4 @@ void I2C_Stop_send_bit(I2C_Pin_Content *PIN_CONTENT){
 
 
 #endif /* INC_JERRY_OLED_H_ */
+
